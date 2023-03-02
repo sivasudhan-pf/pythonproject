@@ -81,7 +81,7 @@ print_numbers()
 # Test:   
 # is_out_of_range(12, 0, 36) returns False  
 # is_out_of_range(12, 12, 36) returns False  
-# is_out_of_range(120, 0, 36) returns True
+# is_out_of_range(120, 0, 36) returns True.
 
 def is_out_of_range(number, start, end):
    if number < start or number > end:
